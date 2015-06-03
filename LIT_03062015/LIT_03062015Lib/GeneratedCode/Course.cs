@@ -9,65 +9,67 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
-
-public class Course
+namespace University
 {
-    private Course() 
-        :this(null, 0) { }
-
-    public Course(Professor professor, int credits)
-        :this(professor, credits, null, null)
+    public class Course
     {
-        this.Students = new List<Student>();
-        this.ExamsDates = new List<DateTime>();
+        private Course()
+            : this(null, 0) { }
+
+        public Course(Professor professor, int credits)
+            : this(professor, credits, null, null)
+        {
+            this.Students = new List<Student>();
+            this.ExamsDates = new List<DateTime>();
+        }
+        public Course(Professor professor, int credits, List<Student> studentList, List<DateTime> examsDates)
+        {
+            this.Professor = professor;
+            this.Credits = credits;
+            this.Students = studentList;
+            this.ExamsDates = examsDates;
+        }
+        #region Fields
+        private int Credits
+        {
+            get;
+            set;
+        }
+
+        public List<DateTime> ExamsDates
+        {
+            get;
+            private set;
+        }
+
+        public Professor Professor
+        {
+            get;
+            private set;
+        }
+
+        public List<Student> Students
+        {
+            get;
+            private set;
+        }
+
+        #endregion // Fields
+        public Uri GetOnlineMaterial(string ID)
+        {
+            // to be implemented
+            throw new System.NotImplementedException();
+        }
+        /// <summary>
+        /// Updates career for each student in the course
+        /// </summary>
+        public void UpdateCareer() { }
+        /// protected: only the professor can modify those parameters
+        protected void AddCourse(Course course) { }
+        protected void AddCourse(List<Course> courses) { }
+        protected void RemoveCourse(Course course) { }
+        protected void ClearAllCourses() { }
+
     }
-    public Course(Professor professor, int credits, List<Student> studentList, List<DateTime> examsDates)
-    {
-        this.Professor = professor;
-        this.Credits = credits;
-        this.Students = studentList;
-        this.ExamsDates = examsDates;
-    }
-#region Fields
-	private int Credits
-	{
-		get;
-		set;
-	}
-
-	public List<DateTime> ExamsDates
-	{
-		get;
-		private set;
-	}
-
-	public Professor Professor
-	{
-		get;
-		private set;
-	}
-
-	public List<Student> Students
-	{
-		get;
-		private set;
-	}
-   
-#endregion // Fields
-	public Uri GetOnlineMaterial(string ID)
-	{
-		// to be implemented
-        throw new System.NotImplementedException();
-	}
-    /// <summary>
-    /// Updates career for each student in the course
-    /// </summary>
-    public void UpdateCareer() { }
-    /// protected: only the professor can modify those parameters
-    protected void AddCourse(Course course) { }
-    protected void AddCourse(List<Course> courses) { }
-    protected void RemoveCourse(Course course) { }
-    protected void ClearAllCourses() { }
 
 }
-

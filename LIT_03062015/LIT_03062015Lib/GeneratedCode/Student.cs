@@ -25,7 +25,10 @@ public class Student : Person
 		get;
 		set;
 	}
-
+    /// <summary>
+    /// It will be specified as Master or Bachelor when the object
+    /// is instantiated
+    /// </summary>
 	public virtual Degree Degree
 	{
 		get;

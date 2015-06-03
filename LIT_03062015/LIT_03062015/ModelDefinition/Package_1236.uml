@@ -1,1 +1,2996 @@
-﻿
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5f7ad42e-8d70-4f6a-a575-8ecf638f1954"
+  name="University"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="058723c2-8359-498d-a71d-93cafa5214e0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DUniversity"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ca7f9816-b7ea-4357-a2f2-ed57eb148db9"
+        name="Bachelor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1537d6ce-b0e1-401a-ba37-ff8e2e0ab96a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="38a83be7-1c5c-4807-952c-0e751c2a7dc3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50a62f28-55e1-4c58-ac3e-ac752e8aa169">
+                <propertyInstance
+                  Id="53c697ea-5c47-44b5-bfde-ee11ef77ad7e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a87c93b-377c-40ea-891f-91753216f166">
+                <propertyInstance
+                  Id="08dbf56a-1914-42c8-85ef-6bc8f578e74c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="785f1452-5f5b-4fc4-a769-e1269173d704">
+                <propertyInstance
+                  Id="3485f417-c2b0-4d91-8e1f-585a633e9213"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15df82dc-983b-4eb2-89c4-61927a83a621">
+                <propertyInstance
+                  Id="8d1c51fd-e0b3-4e8a-984c-8ec07737f6eb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5d2f37a-3afc-4042-aec1-fdb6bf296075">
+                <propertyInstance
+                  Id="c1da0dc1-8f80-45d2-8f4a-84370d0a6140"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f4cdba89-a9a0-4fcd-91b1-f8539650cbb3"
+            isSubstitutable="false">
+            <classMoniker
+              Id="06383d25-6069-464a-b04d-4d020daa1376"
+              LastKnownName="Degree"
+              LastKnownLocation="Package_1236.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9c9eb363-95a0-4197-9737-3bf47617e505"
+            name="Bachelor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="991f6f74-b115-4bde-a2cd-339050da7a4f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f207902-21be-45cb-879b-2807f28a0202"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="340ebd13-1a47-4a3b-91c0-74a8b4573fa7">
+                    <propertyInstance
+                      Id="1b437b1a-29de-448c-ac58-c676b7e7873c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac1ba744-09a3-4f5b-9f24-9a03983fdcca">
+                    <propertyInstance
+                      Id="5bf93e9b-7e55-4e54-8576-bd0bf94d9c89"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77e0182b-d2b7-45a7-af4c-5f112c948155">
+                    <propertyInstance
+                      Id="4eacce8d-ccac-40b0-b299-135f8fc266cb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca967769-9119-43ed-bc48-2047a2acb2c4">
+                    <propertyInstance
+                      Id="57bc613f-0384-42a8-a0e7-8b1cb442cbac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34910e9d-b6e9-479d-98f3-2c920c41a4ab">
+                    <propertyInstance
+                      Id="eb3fa867-b108-4fd2-9fc5-e2f2c5d76c59"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d98d6b10-8e12-4009-a241-2d187642d7ea">
+                    <propertyInstance
+                      Id="b5829e1f-c07d-4302-af4a-5dabda8969e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a674062a-0395-484b-b524-b63a6906d112"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b728c2f5-6562-4461-a35c-48efca276cc7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eaab8948-5c96-43b7-9dfb-a2a37051e113"
+                  name="start"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2b0dc733-2af7-4d54-9225-7c4a35d00cfa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dstart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a44e796-b92f-4104-97d9-93389ebf6c53"
+                  name="end"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="76d9ac20-cf9e-424a-8ed7-192ffd4ab4d6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dend"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="23918664-3c0c-400d-a1c2-ced993e7d735"
+            name="Bachelor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="59024730-cfa4-4525-a68d-cb6b57788144"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2938a6de-82b6-466b-9f71-b0dd90f8c9d4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0b56d71-133f-464a-acba-f8ce58ecc4d5">
+                    <propertyInstance
+                      Id="c2994c18-6174-46e3-a0f2-fa3481f359ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc495280-fa1b-470c-823f-6bb2513af495">
+                    <propertyInstance
+                      Id="f293a7e8-240d-4fc5-a8d5-31ee44c79188"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9230f5e-a65d-4520-9d97-512acf584779">
+                    <propertyInstance
+                      Id="fab66141-4aad-49e0-b39c-a224db1ef437"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e31659b7-0a52-4061-8454-40d8d760beec">
+                    <propertyInstance
+                      Id="25aa328b-6f0f-40f4-8187-0ecd16fa91fd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f17a452-d9f6-4e38-b7cf-7d4c21b67154">
+                    <propertyInstance
+                      Id="9535bf12-4a53-4b8d-bef9-b62e121c8777"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3452226-6a95-45f0-a61e-3e8424ffa8f9">
+                    <propertyInstance
+                      Id="5d29ab9e-cccc-4509-a95b-2834ec9f4b35"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="67de5db5-1cdc-4280-bd18-50cbaaf4c4d8"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bcf95261-a1f4-46a6-8626-a5cab15a9c7b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3847af97-1c75-42f9-88a7-0abfb02f37b8"
+                  name="start"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="76bcb7d1-fab6-4a71-8d38-fd323c34944f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dstart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ea042f37-fcd2-4450-9864-39bff8fef915"
+                  name="end"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d682988d-4748-4daf-858a-28d2dee4f116"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dend"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6758a972-c174-40b3-9174-4c0cbe572c40"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="97ff8d28-9285-4769-b366-01e7749b9a90"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0a4626c-f2e1-4596-bdf4-67bb71aa0a29"
+                      LastKnownName="List&lt;Course‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="89b57c91-4749-4bd9-b48e-21960b004a9d"
+            name="Bachelor"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fe15ccfa-e9e2-4542-bd25-93aac67f031b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DBachelor Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a485aaee-5338-4097-9f7d-398c4c83d851"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="697daf6d-f526-4367-8a9b-fb979b624f7e">
+                    <propertyInstance
+                      Id="8086249f-c037-4f06-83a4-b5adf554047a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebb7f0a7-2a57-4c1e-a8b3-3f49ea356791">
+                    <propertyInstance
+                      Id="837a7e0e-7fb3-4bed-bf5a-931070937e08"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05d102cf-db2e-4d95-a9f2-399d62894344">
+                    <propertyInstance
+                      Id="43624f88-a2c8-441b-97a9-880c78a803bf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50bb9ed7-4271-4e26-8039-36492e99e15c">
+                    <propertyInstance
+                      Id="32991e1d-658b-40b8-891c-c36405b41ade"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb9697b5-5f63-41a1-b3b9-e1b64f6bf20f">
+                    <propertyInstance
+                      Id="ec4fb5dd-de1b-4b24-9db9-4ec9665c9d66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd016c1-4896-44ec-a4f0-275a4054b3d9">
+                    <propertyInstance
+                      Id="75f4d0a4-cc5d-43ac-9f99-b4a11fac6005"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="06383d25-6069-464a-b04d-4d020daa1376"
+        name="Degree"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7980eb23-56c0-4e53-9edc-873abe4e49fa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bd6e3aac-1b0b-40ec-831b-a12f6a90dcc4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bfabb4b3-efb1-4b02-9b7d-3d313436ebe2">
+                <propertyInstance
+                  Id="b8ad96eb-b30b-4425-9d96-5707f617557b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f573d9c-66f7-4dad-8f8f-77a5f672adfa">
+                <propertyInstance
+                  Id="c8c0e506-a680-438d-9a3b-356b1db5b814"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92365bfe-d633-436a-b383-6622fa2bb162">
+                <propertyInstance
+                  Id="d5e0b475-1a7e-4f28-8033-1eb7579b9502"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81a6354e-1562-4864-8cb9-8ece68f9683b">
+                <propertyInstance
+                  Id="7578a3f9-9d58-4dd4-a50d-c855a54a49c6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5fb36c5-198d-4d9f-90ba-f04ba1e83fc6">
+                <propertyInstance
+                  Id="3793c4e8-010f-48d4-8323-c6e53d082890"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6ebecc63-36ec-45ae-84ff-f6e9c2130a67"
+            name="CourseList"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="92d730d3-638f-4d97-ad81-9badb3f933d2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3DCourseList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7df2c78-9615-4ae8-b888-7ab55699f92c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="353086ae-e9a1-4b0a-bab0-e48621bce1e0">
+                    <propertyInstance
+                      Id="2692a94d-c9a7-496a-a6bd-b0aa5a8bdeec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee8eb9c8-76b3-42f2-aed7-d0f4d8fc97dd">
+                    <propertyInstance
+                      Id="d3c2b372-4a92-4c4c-90f3-78542d951b4e"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7494172-321f-4406-95ca-84b47fbf2d81">
+                    <propertyInstance
+                      Id="b4537dce-9c41-4ddd-a24f-6230cd12f97b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="282e7a2f-c841-4588-9e51-c471561fa764">
+                    <propertyInstance
+                      Id="2b715882-5ed9-4f74-adf6-6e3a10cbd473"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468b1642-02da-46f0-8624-9c4589b80eaf">
+                    <propertyInstance
+                      Id="22b585e9-62d1-429a-bd0d-89d29b54ec46"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d523cb93-6ea6-4b0b-9933-e0a043e69937">
+                    <propertyInstance
+                      Id="f0cf24cd-e704-4036-bf35-156ed1a81924"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b157d2bd-b567-486e-b6f8-7394cfb22e45">
+                    <propertyInstance
+                      Id="e0544471-9b38-47ba-aece-945a6da23034"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f0a4626c-f2e1-4596-bdf4-67bb71aa0a29"
+                LastKnownName="List&lt;Course‎&gt;"
+                LastKnownLocation="Package3_1236.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d4e70578-3769-445c-b5b6-02f8f109e2ae"
+            name="StartYear"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8d5d5af7-4873-4713-abf2-e4da0f72346c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3DStartYear"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bfe6408-f41a-4f7e-b7cf-499e5d80a521"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d889d787-52c1-4142-b5eb-4f250db60b10">
+                    <propertyInstance
+                      Id="8fb12edd-4748-4bb7-a2c3-48a780d33282"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b905219-89c3-4f89-a681-8e6faf47fbd2">
+                    <propertyInstance
+                      Id="0350f331-403a-472e-bfb7-fc267a276354"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29bf818c-e945-4a7b-bccd-fbd77103600c">
+                    <propertyInstance
+                      Id="eb3a9ef8-8abf-402c-ad51-f6805f3efebf"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fef4e5c-b5a1-41dc-8280-23557dfc9c36">
+                    <propertyInstance
+                      Id="f8b0f625-6a17-48d2-82ee-22fd0da4fcb9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcbef6b0-2e93-4c41-b7cb-a4618fc27e59">
+                    <propertyInstance
+                      Id="1f9e71c7-c244-4a6c-af90-75c2df1eb13e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3abbb3c-6ece-4acf-954b-5d595b051ea3">
+                    <propertyInstance
+                      Id="6b3d40bc-1964-41f7-be47-8a0321d4c0e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d0fd4c8-5a44-40b4-9c02-af31fd537e44">
+                    <propertyInstance
+                      Id="ae58feba-f60c-4470-a9a4-e8d32bd84ee1"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="LIT_03062015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c416d29c-ac3f-4fbc-a710-8becfabf6ac7"
+            name="EndYear"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eb52e7a9-ea9d-49d0-813a-091ad607668a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3DEndYear"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f15e663-b978-486c-9bc4-fa9d1e2a9e4b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7974a3d-d941-4ec6-9ece-3decafb88cea">
+                    <propertyInstance
+                      Id="5f60dec7-96dd-4d9e-8a5a-fab28bdf373b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3924629-4051-4342-bb0e-7d1c5c3a602a">
+                    <propertyInstance
+                      Id="37fa0a2c-2614-4cdb-bce7-20518831f3b1"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="411a5c1c-ce7c-4300-be40-f07661821378">
+                    <propertyInstance
+                      Id="88e061d4-61ce-4fb0-a9af-b730f9b0704e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c5a3b00-bbe4-44b5-92e2-1f1cce2e52f6">
+                    <propertyInstance
+                      Id="1f4d1c04-e068-4af5-b06b-88c5dbd0ea36"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52b6c3cf-3a6c-4a67-9139-392453322a3f">
+                    <propertyInstance
+                      Id="aa08e3d0-45bf-457f-be71-0102e5bd7d68"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99a369a7-1753-4c68-9350-020075b915f8">
+                    <propertyInstance
+                      Id="03e7c52f-3587-4854-bb38-1e68ab796711"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aff24d34-a0f5-4f92-920e-cfcdfac04f78">
+                    <propertyInstance
+                      Id="0a3251ef-4bbf-424c-9b03-a5305cc05067"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="LIT_03062015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1184c588-5635-4fb1-8686-17512a5c1305"
+            name="DegreeName"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="50af27dc-61e4-40d1-b696-dd2ab2f16a9d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3DDegreeName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfcaeef5-3c43-4d2e-ac7b-b064d87cc2aa"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3fd7d23-5c51-4b09-bec5-5949d869ddc1">
+                    <propertyInstance
+                      Id="c7427e77-d936-47f1-af9b-c260c6b6f611"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c97bfa77-e1b3-409e-b387-44e0b36a402a">
+                    <propertyInstance
+                      Id="d31185c9-4095-43ca-b724-37b6b4b8a327"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50afff3a-ea3d-4cb1-b6c3-68735f063c47">
+                    <propertyInstance
+                      Id="8615e657-e96e-482a-9fc2-e90f59762ffc"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be50b1e1-2c7c-4ded-9c04-6bd4364cfc90">
+                    <propertyInstance
+                      Id="ff92ddba-4b33-492a-af26-33094699b0bc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57ed7072-0c23-4de5-8c15-065005a07960">
+                    <propertyInstance
+                      Id="930e7a91-994a-4369-a1fe-8930479ee813"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="LIT_03062015.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="735df4b2-2521-4fcf-875e-0f15d1bfad13"
+            name="AddCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d3b5717-dac2-436c-af20-f1abfce625d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e1d69a2-e714-4b5c-9546-8cf580bc33ad"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f716d41-a92f-4916-9b72-ae75afeddea8">
+                    <propertyInstance
+                      Id="bcc3ce88-2707-44ba-b504-2733a3772683"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a1b947d-7607-4229-b2f6-a400d01ca88c">
+                    <propertyInstance
+                      Id="d7f86583-ed4b-4140-ab43-974995235517"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3f61c54-d519-43f3-8638-c6acdcdc658c">
+                    <propertyInstance
+                      Id="735c74b5-90b7-4c0b-bd69-a2ee331fd1cd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa4b2e41-62d1-4c97-84b8-7ebda4ecac18">
+                    <propertyInstance
+                      Id="92203dce-a7d6-4eb2-8b71-adea7dd22780"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37108c83-e7e3-4a8c-91f5-e3af4521e976">
+                    <propertyInstance
+                      Id="bcd399a7-4790-4f57-8901-1b4cd51fc228"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2d1c87a-4ff6-47ba-a10f-6229f784d937">
+                    <propertyInstance
+                      Id="377b137a-37c8-4fdc-8ae0-e9c78a015071"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e3551f93-c4a8-4877-9c71-6a1fe5d7af58"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="03aa19bb-a983-4ecf-8339-60e0e3068865"
+                  name="course"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1e5d8f07-e3f2-48f3-8411-82d9e8840292"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]) ParameterIdentifier%3Dcourse"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f98cb732-c545-4f3a-85ed-c7da724073dd"
+                      LastKnownName="Course"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="10ab7217-6edc-4393-836b-0a7eeb80c03b"
+            name="RemoveCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aa9549d8-ee29-4114-9367-cf468a9b1113"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DRemoveCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a8f3ab2-0aba-48f8-a24c-e947de7bbdd5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="607822a9-7c21-44e6-badd-f416e7da6d23">
+                    <propertyInstance
+                      Id="b3164d35-3411-488c-b497-00153502da7e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14345330-5483-47fa-8d17-24f8aae794d8">
+                    <propertyInstance
+                      Id="07e4e491-569a-4b9e-9771-22c521a6176c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb23277d-6059-4189-b74f-9506837205c7">
+                    <propertyInstance
+                      Id="c0f8c06a-a8f1-4964-b334-160a80efb245"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d8f8215-abf5-4a55-9fb6-71858c53bd75">
+                    <propertyInstance
+                      Id="9ed7bb51-6e03-49be-a47f-85e16a477886"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="806f9c9d-4ddc-4401-9a87-d1a9782e71dc">
+                    <propertyInstance
+                      Id="5825712a-2dd4-420f-b018-4b5e5628bf46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcdd306c-43ea-49dd-9a59-782390588173">
+                    <propertyInstance
+                      Id="4ffca836-4cf4-4eeb-9326-d6add995da48"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9571a8bf-9384-47db-a752-00d67f4bb2ee"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="13080989-e7ef-44f7-8f82-91324ce2a8cd"
+                  name="course"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e9e8febe-68b7-424a-94d6-c15e8a4128ea"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DRemoveCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]) ParameterIdentifier%3Dcourse"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f98cb732-c545-4f3a-85ed-c7da724073dd"
+                      LastKnownName="Course"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5d80ec49-f251-4bc2-991f-15f0bea04ba7"
+            name="ClearAllCourses"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="472591d8-1528-4911-a07f-8fa35f8eb1eb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3DClearAllCourses"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec059963-a878-420d-a29b-add660132e27"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21940846-e3e9-4e7e-a4dd-c7912ceb5f16">
+                    <propertyInstance
+                      Id="78e27011-65fe-457c-a017-bb912050d91d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1704f78-32fb-4b80-9954-1cf2c243d09d">
+                    <propertyInstance
+                      Id="7719628a-971d-4f62-908f-b2e97dde79cd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="674dad79-55d3-42c9-9b37-1a8eb6b4a815">
+                    <propertyInstance
+                      Id="f6bfbc5b-7e34-4a0f-8c77-761809d35728"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ad12987-d646-4b65-953d-35e8525a6e86">
+                    <propertyInstance
+                      Id="9fe9c6ae-e377-4fb4-a574-c2955c899077"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bf35bb3-599f-4a88-9d6c-8cb2089ec253">
+                    <propertyInstance
+                      Id="0254cc3e-fffa-4375-af68-c53898573077"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67403664-5834-4f6a-bbad-f8168938a903">
+                    <propertyInstance
+                      Id="93b5fedd-30ab-41b6-95d2-7b7e242bbbd7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="21fde06b-6075-41db-bd8b-95b2541da084"
+            name="AddCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="98c5f588-6cff-4694-aee1-f39124a84c71"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ffb4f6a3-156e-4d2a-9f53-1d1d7a2dac8b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="996bb7d3-dcbf-4307-b527-9408c21e0ee8">
+                    <propertyInstance
+                      Id="89170498-8037-4ee2-ace4-9dd5e0fe4f8a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baf157c1-c1c4-44ea-a7f8-37303039ef6f">
+                    <propertyInstance
+                      Id="f4277dbf-7e5b-4f82-8c13-3fc9482d81ac"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82abfff9-4a06-4bcd-9f77-f81e92f653ed">
+                    <propertyInstance
+                      Id="d9061245-8c34-4821-92cc-fb8702266fa8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7610222-bafd-46bd-a372-4e8393dc1c47">
+                    <propertyInstance
+                      Id="52d18d06-4dac-49bc-920f-b5d2fb9d9031"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ff9afe2-e329-4c1b-8825-dd494ba4dd56">
+                    <propertyInstance
+                      Id="c65a2cc3-55d9-4852-a877-8d8b679c3e7d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="807175b6-2a77-44c7-aad2-450f170c24ef">
+                    <propertyInstance
+                      Id="86425b44-d0cc-4802-863a-3384e650b352"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18b4c813-0eb5-45bb-8b8f-af22be2607a3"
+                  name="courses"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="40b85f76-4346-43a6-919c-6ac07e6a3882"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dcourses"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0a4626c-f2e1-4596-bdf4-67bb71aa0a29"
+                      LastKnownName="List&lt;Course‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ecec2029-f628-40c5-b73d-03b849145519"
+            name="Degree"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ec29ecc7-8c89-4c5f-a95d-fd96d6887b7d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DDegree Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="03ec841e-1606-46a7-a302-08a4a48fe222"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4a4122e-fb5c-4c06-bb5e-9193fb1ad3cc">
+                    <propertyInstance
+                      Id="96c1c14b-6756-48c5-9337-d6a8eaa9eb44"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0e2152c-67db-4cd3-97c7-b08dbd1fe2c4">
+                    <propertyInstance
+                      Id="2771f83c-f761-4ff1-8b3a-30d3ba70ee45"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12d0c697-10a3-4870-8ff7-32acc1b83f0f">
+                    <propertyInstance
+                      Id="b20e3fcb-e71c-401e-b29d-3de719efa077"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb7b2a9d-dea4-4881-874c-52026e5e02f5">
+                    <propertyInstance
+                      Id="be960fb3-dd90-4b5e-97d8-af140e8e33e1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="294ac3ee-323c-4437-a2a2-687b33931c6c">
+                    <propertyInstance
+                      Id="b6c118ec-d405-42e4-a069-9c491aba8b19"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43e9ffb8-82f4-44a6-b9ec-ab0b569418ca">
+                    <propertyInstance
+                      Id="03d21f37-f184-4a81-9cc3-3e5da7251cfd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="41c56b44-63f2-41d4-8cc3-8e14db6e42ba"
+        name="Master"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2ee2d976-c64b-4b0f-9bd0-cd484df8194b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="48ec5f1c-4d55-4cb3-a911-c64f34b55709"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30697dc2-d7b1-4691-bd68-9be512f46744">
+                <propertyInstance
+                  Id="3dd81531-9a58-487b-b04f-e6a370f64e94"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ce9db46-9b86-4f15-a3ae-a1dfeddb94dd">
+                <propertyInstance
+                  Id="78afee09-ff2c-4d8c-891a-429d4068b3ab"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f199e3b-eff7-4394-a6cf-85a41fc26bcc">
+                <propertyInstance
+                  Id="6de09419-9cf3-480f-9bbf-ed3a35ff4848"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="55ca1aee-b181-48ca-be88-2fb7c48969b9">
+                <propertyInstance
+                  Id="3cb5b30e-e853-42d1-8ce0-85f6519b57cc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24d0eb30-4ee3-4f72-9ac9-2946fbdcbdd1">
+                <propertyInstance
+                  Id="8a6c8032-92b2-4d48-b50d-c47539ff5656"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="27de34c4-1638-43a4-a96a-ec8cc24edc5d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="06383d25-6069-464a-b04d-4d020daa1376"
+              LastKnownName="Degree"
+              LastKnownLocation="Package_1236.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="146bd6ca-05d0-4189-9e52-fee2fe17fd51"
+            name="Master"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5129a43d-27ab-4847-8d84-8fa143eed170"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b425a962-973b-4bfd-a800-e35af051625a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cab1fa8-4774-4447-9dcd-23fa9f89a0b2">
+                    <propertyInstance
+                      Id="0e0ce190-35bb-4c1f-a7d1-e7c56e2a0707"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a6c4a3d-0c8e-45ba-89e4-6d043d6145a1">
+                    <propertyInstance
+                      Id="33d233ca-c451-4161-8eec-9b45b80713a7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2309e64-de5b-46f9-812e-08288ff7df54">
+                    <propertyInstance
+                      Id="41c601b4-3646-44b7-b1f1-10b032ec075c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82ea5e83-6fb1-48f4-8c49-0a723c5b4006">
+                    <propertyInstance
+                      Id="882ea848-7af6-450d-8b26-4e173a57000b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4e6e555-5c35-4c44-ae26-c6aa5528eaa0">
+                    <propertyInstance
+                      Id="b74fdd4a-ebf7-4c5d-a82c-ce46519bfc5a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faca9836-2ecd-4a07-be38-d01909f64142">
+                    <propertyInstance
+                      Id="8c01e1da-54d2-4548-bac1-69f0f4268607"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fc7377b9-7edf-4771-b1ae-6ee1019576c0"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f343435-7521-4fba-952e-a777947179c7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e9990caf-6950-4057-86da-6dfe10593732"
+                  name="start"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="49841280-82fd-4cb3-bc9e-7828b5a5643e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dstart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ec86eba-6e34-41d9-9436-0376bdd4021c"
+                  name="end"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="819b4ac8-6685-4ba4-b3fd-a38b3ae0209d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dend"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="864938ef-dc15-4314-833f-b1a34c4e74de"
+            name="Master"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5172bdbf-a133-4983-a1f0-58280c88e096"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="400cdf38-bfb8-4847-a7a9-e984e7b9bf40"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98be5a53-894a-4a26-887b-a0b823918bca">
+                    <propertyInstance
+                      Id="088eb169-9030-4604-b9bc-4cb35a4fe1a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1aadbd93-2454-415f-92b8-ed1f88bc4f7c">
+                    <propertyInstance
+                      Id="c5afafe9-7715-43c0-8002-39cee63dd161"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3666e336-bdf1-47bf-b67e-97e7e028b8ac">
+                    <propertyInstance
+                      Id="0e199902-eca8-4c04-9990-0ee31f6d10f3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92b91a1c-0e30-4a7a-96c0-d92295e5b655">
+                    <propertyInstance
+                      Id="8057301f-2dd2-4bbf-ad7a-09700c45c630"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7eddd79-dc4b-46ac-8b6c-da33d5103b5a">
+                    <propertyInstance
+                      Id="3cdd4c90-bd75-4a21-8662-41a90ab3287c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c0ec874-8447-4fe5-804d-c8a54397616c">
+                    <propertyInstance
+                      Id="87e40b20-d08a-449b-afe9-955afad6d577"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1bba0f0-87fd-4047-988f-0c674e56f7dc"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="41a47e54-ae45-4527-9e3b-0c01a6d25f9f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c4608296-ea43-4e55-afdb-969e5d04362e"
+                  name="start"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3553254b-4158-4077-9568-af5eed94df22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dstart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4c9b6fb9-0e8c-4208-99da-66776f69186f"
+                  name="end"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a8f1c86c-21b0-4ca4-a540-f06602f10817"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dend"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="443dfbc6-95d0-4669-8748-deef350c36bc"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="58e1581a-bade-405c-ad34-6ec859473ab6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DCourse)]))]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0a4626c-f2e1-4596-bdf4-67bb71aa0a29"
+                      LastKnownName="List&lt;Course‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fd2f34b1-0f5c-498e-a753-da71b112e974"
+            name="Master"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ca89ac93-85f5-48f1-b0c0-9c9e7de3d3dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DMaster Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ff7a2802-a934-4f34-b316-b605ebf4c454"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="628d28e8-7366-4d01-b770-06ff1dea51c1">
+                    <propertyInstance
+                      Id="73b0c80c-be05-4268-8c06-e2f878b62796"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1755ad34-65d0-45d4-881c-bfc7fcd2f9af">
+                    <propertyInstance
+                      Id="a1e17f99-9ab5-465a-b85a-fd65b203b000"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="602b8dff-1240-49e3-9232-c40be3f8e891">
+                    <propertyInstance
+                      Id="90ac8536-08c0-44b3-9566-1baac1676028"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e525993-4788-41c4-9de6-8f8e6b2d17e0">
+                    <propertyInstance
+                      Id="355a3bc6-1762-4788-b274-bce6d8f28635"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54c31ea8-3856-4c18-a9af-6fa15eda0651">
+                    <propertyInstance
+                      Id="f6252a9a-9c2b-4d18-b39a-1f9ecd03867d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfe46511-80bb-40b0-8737-dc5b6b55c378">
+                    <propertyInstance
+                      Id="2d7f2f70-17d9-4b5b-acc7-6bff581128f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ee7ec90d-911e-4ba6-8e8b-d8fa4b04682d"
+        name="Course"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dda98fe2-aa80-4d68-aa1d-14896e677078"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4d85f848-ec67-4b75-8721-cd1f181b1b75"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9d82eec-8c6f-40a0-929f-2abeac861a67">
+                <propertyInstance
+                  Id="b65d70d6-b888-486f-ad1e-2a56fcf1b03e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f9e4c01-c603-487c-980e-9be7ce31660e">
+                <propertyInstance
+                  Id="2153ea05-332a-44fb-8a3b-f9767ac52b46"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e909a6a-d069-4d0c-98c4-3381cb8cb2a5">
+                <propertyInstance
+                  Id="83cf044d-e43d-4a2b-b86b-54fb470687b5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="719c60a0-6704-49c9-8383-f33a873ae687">
+                <propertyInstance
+                  Id="ca228bc4-acae-4339-83e5-3c60cc831fac"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1952657c-64a7-4241-934b-1b55229cf546">
+                <propertyInstance
+                  Id="2de3a580-53d5-46da-82ee-90facafd74d7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="4562a0f6-7d50-459d-9710-01200371d16b"
+            isDerived="false"
+            sourceEndRoleName="Course"
+            targetEndRoleName="ExamsDates"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b628e2f4-eefb-4d2c-a47d-303768489ad0"
+              LastKnownName="List&lt;DateTime‎&gt;"
+              LastKnownLocation="Package3_1236.uml" />
+            <description>Property ExamsDates references type List&lt;DateTime‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6945dd90-473a-4488-ac58-9e9b76070bf6"
+                  name="Course"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b0df1a63-c4d2-4701-99be-08a13ca3471c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ddf14eb3-7267-4b78-9e6e-627e900337a7"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="339179fc-e19d-4830-b75c-37e584ec8a82"
+                  name="ExamsDates"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3f9fe71c-3806-4244-b88d-fbbf0ac23407"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f56e804b-5e17-4c97-9ca1-605eb7224a62"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c0994ed3-dc32-4989-973c-aaea2e3dbd04"
+            isDerived="false"
+            sourceEndRoleName="Course"
+            targetEndRoleName="Professor"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2422b345-e45b-44a9-8220-4f9cf9d6fbc0"
+              LastKnownName="Professor"
+              LastKnownLocation="LIT_03062015.uml" />
+            <description>Property Professor references type Professor.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6628dfce-c940-464d-8696-31a59f9fa23f"
+                  name="Course"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="29227060-92ff-4651-9f6a-5ddfff5d6c5a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="078b557d-ec07-4bcc-acbb-e9eea9f0eca6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5c7fa438-b239-467e-bf85-48c0d7f235e3"
+                  name="Professor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4e979ac3-1758-4020-8424-318a93bcadf3"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ebd014c2-3ce5-4acb-917c-43ec2661fdbc"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a15c186f-92bd-41f5-919a-c514c49563cd"
+            isDerived="false"
+            sourceEndRoleName="Course"
+            targetEndRoleName="Students"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="33f7aa6c-63f1-4dc9-8edd-3469e3eb7302"
+              LastKnownName="List&lt;Student‎&gt;"
+              LastKnownLocation="Package3_1236.uml" />
+            <description>Property Students references type List&lt;Student‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3f838173-afb3-4a5d-88c8-a6c08122c6ab"
+                  name="Course"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0e37c00a-1dc7-436d-a726-949d1bac74ee"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b0138e3f-870e-44e6-98dd-27c004ace7a8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2544cadd-6947-471b-853f-fac0ea114769"
+                  name="Students"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="290619c6-2451-4d5f-af25-07f39911630e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a35147cf-11ab-4122-847c-c453c66d32d6"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2677d4f7-6782-4960-ae83-7b8d20c93d1a"
+            name="Credits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2074c1e4-d3a3-4a6b-bd1a-b95fd63014cc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DCredits"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b2962cb-ffcd-4713-afc9-68a9a7d991e8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8d812aa-3a4e-44a8-b6d1-66592e4c0fa7">
+                    <propertyInstance
+                      Id="9d2106af-9cab-4efd-8b1e-e640811cecac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a3166bc-cd16-48ef-830e-28527db1c798">
+                    <propertyInstance
+                      Id="fcf16f8c-0cc8-450c-9dea-27c9ea174f3e"
+                      name="Get"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de123cf0-ab7e-4404-9c90-7451b73f45bf">
+                    <propertyInstance
+                      Id="3052f969-849d-40c9-ab4a-573ce2887e64"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f6ae55-ffe2-4a8f-b469-89a0a737d12a">
+                    <propertyInstance
+                      Id="60c9983e-d9f2-4fa1-bff2-6d8050b0eeec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d624872e-ce5a-4e30-922c-7bd8b6a13c1c">
+                    <propertyInstance
+                      Id="5a12c459-fb7b-41a1-877b-0aa279a8e50b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04ac070f-673e-4c5b-a138-b65f637b161f">
+                    <propertyInstance
+                      Id="5236e09f-c689-4885-b747-be6d922a976a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e1b4b4-3faa-487f-8533-d682f36d616d">
+                    <propertyInstance
+                      Id="739f4ec3-4fc4-4f97-a79c-c0ff1eba9761"
+                      name="Set"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="LIT_03062015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="da5d6f17-7802-4602-8deb-fbd02671ce55"
+            name="ExamsDates"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ee9178f7-4aac-48c9-b88b-2a477505b0d2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DExamsDates"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1c7a3b6-6843-4b3b-bdc6-4b8d4e23d5f1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e865dfa8-1f06-4be1-a581-9900649c3e9e">
+                    <propertyInstance
+                      Id="51a103f0-6b51-474c-a2de-3f8e5414904c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f158f84-73b3-4f9e-b6fb-034c966eb421">
+                    <propertyInstance
+                      Id="d5676740-2dbf-409e-b088-8af7bfe25688"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92356c6e-8f08-4747-89f0-fc2ecce69bbe">
+                    <propertyInstance
+                      Id="d3404f52-e679-474b-b496-cbdf1f78899c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1a9f01d-dc0d-40b1-87ce-8444235a35e7">
+                    <propertyInstance
+                      Id="edef3839-175d-4004-bbb2-59e6c2c1c229"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1570cccc-c954-4ef4-98cb-d82c15ce69c0">
+                    <propertyInstance
+                      Id="4b21290d-32e6-43ab-9b7a-4959a397f565"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26fd9a72-798b-42a7-b410-4850b4ecc7f0">
+                    <propertyInstance
+                      Id="db472752-497a-499b-b4fd-68fd74746662"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b86eca13-6cfa-4623-af65-abb141982468">
+                    <propertyInstance
+                      Id="dcd6146e-50bd-4b2e-bec3-9ae1fff275d5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b628e2f4-eefb-4d2c-a47d-303768489ad0"
+                LastKnownName="List&lt;DateTime‎&gt;"
+                LastKnownLocation="Package3_1236.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="914066e0-052b-4d73-a75f-eba8aab0d310"
+            name="Professor"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e12895a5-0309-423c-bedc-e436a8ef6f3f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DProfessor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f21d01ca-b463-4b36-8d67-4912dc5bbb28"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9d2e8ef-0031-4acc-85b0-a23fd55f013d">
+                    <propertyInstance
+                      Id="4dfa344e-1ece-48b8-9d94-b0047e8d3da5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="920ef4c3-0f7a-42c4-9ac7-711068fe7ad1">
+                    <propertyInstance
+                      Id="6d1022e7-dda2-47ba-8a8d-1b7c29dc20e2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74845363-ed33-4bdd-81bf-e25e31ea0870">
+                    <propertyInstance
+                      Id="99ef961c-5100-470f-8408-8150abf2da18"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4baf640-915c-45da-85fa-d6d65ab1fa20">
+                    <propertyInstance
+                      Id="ea0fb1cc-1b28-49ba-adc1-12a4c9317641"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="191eeeaa-6617-4417-9e77-0fde820c7763">
+                    <propertyInstance
+                      Id="aaee6dd6-0cb9-40e3-98be-1a5d36f5f6e6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e12435a5-5ff1-42cf-8429-58dc89cfe4b9">
+                    <propertyInstance
+                      Id="ff234c19-998f-444e-8ef6-6f2acbceb856"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2be875cf-42f9-457a-ab95-1a0029cf3862">
+                    <propertyInstance
+                      Id="77c28c56-f70f-4d9d-b30c-b2f58c1536e9"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="2422b345-e45b-44a9-8220-4f9cf9d6fbc0"
+                LastKnownName="Professor"
+                LastKnownLocation="LIT_03062015.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3b83f61b-bdfc-4d0f-87a1-58d92219de6d"
+            name="Students"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bcfbda3c-0c78-46b5-a89b-6b1a95273eb7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DStudents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46710059-e2e8-4fc0-9354-4e2d6fc96bf1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2828a8d8-a51b-47af-bcf8-6fae9d9a7576">
+                    <propertyInstance
+                      Id="86575993-fc59-4056-8398-596d6088a625"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66c8118e-bebf-46e6-951c-a9f8c5d43f03">
+                    <propertyInstance
+                      Id="f620d2c9-c62b-4105-a57f-f8e21f6f8a13"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d9d3512-557a-414f-bef1-631c6d23edb6">
+                    <propertyInstance
+                      Id="0397d852-dc35-4bd1-8b41-972d27d094ce"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d56094e2-4185-442a-ba8c-6ebe9444f6be">
+                    <propertyInstance
+                      Id="a221cbca-4d69-44c7-ba03-fc95b88f73cd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b3808f0-9c22-48f4-8925-4a41cc29c705">
+                    <propertyInstance
+                      Id="b3ed874d-d7f1-4286-98bf-05660365cc49"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="021b1c6f-6475-464d-ad9d-bccccfb66acf">
+                    <propertyInstance
+                      Id="a14136bb-0d3e-4b67-96a1-e51b7e80fb41"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09b55d10-1097-4453-898f-1be470e289ce">
+                    <propertyInstance
+                      Id="f41aae76-8ce1-47c2-9718-65fce2a6f2cd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="33f7aa6c-63f1-4dc9-8edd-3469e3eb7302"
+                LastKnownName="List&lt;Student‎&gt;"
+                LastKnownLocation="Package3_1236.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0f42b768-4492-4de5-bef7-5c842f8793e2"
+            name="Course"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="39a0a38e-0ed3-4f69-abd4-d2ce54c6933f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DStudent)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="07a10c57-68b9-46e1-a2a2-ddfce31fe1e1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="937374f2-0975-4c11-8de0-fe22af46a1c8">
+                    <propertyInstance
+                      Id="970ac350-a04a-4d1f-9cb1-71ffbdd88374"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a37e3a-9b22-4324-8ce0-27f6fbfbb4bd">
+                    <propertyInstance
+                      Id="04fcd597-eaa4-4e00-b6d2-fd434a680a6d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f19e362-71fa-4683-a49c-db04e7e87547">
+                    <propertyInstance
+                      Id="ca82f5ba-2c7e-46fe-a473-6539db3eb36d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ba8855f-9e72-49fd-bd33-6819244e7f08">
+                    <propertyInstance
+                      Id="5c16d58f-345d-4d30-8806-92db1ef69ad9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f056537-dad9-49c0-a2c6-76aeed5e3f74">
+                    <propertyInstance
+                      Id="a58aa794-67be-4cf8-9430-ed0c88c67d3e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2675ccc0-6195-4154-9bd6-67cfbe995f44">
+                    <propertyInstance
+                      Id="d17ccce8-a4d0-4ac2-b35d-33b727a92d81"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f046bc01-7d67-4e01-97e2-531c8184d448"
+                  name="professor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ef9c64ef-2613-4552-b8a6-52e121bb462b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DStudent)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]))]) ParameterIdentifier%3Dprofessor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2422b345-e45b-44a9-8220-4f9cf9d6fbc0"
+                      LastKnownName="Professor"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d65ab4ee-f524-40a3-b7cc-aaaefee8f9a7"
+                  name="credits"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="acec1435-9fab-4fe3-b6cf-c6e076814395"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DStudent)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]))]) ParameterIdentifier%3Dcredits"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e94921cf-17be-440b-8e6f-09092bdcbf45"
+                  name="studentList"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b771b1af-09b3-473b-aa46-3d479ae24342"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DStudent)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]))]) ParameterIdentifier%3DstudentList"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="33f7aa6c-63f1-4dc9-8edd-3469e3eb7302"
+                      LastKnownName="List&lt;Student‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a2130d8f-f540-4430-ae98-fee3414fd32e"
+                  name="examsDates"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="444378f3-2289-4a2c-a70e-a532c8efc059"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DStudent)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]))]) ParameterIdentifier%3DexamsDates"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b628e2f4-eefb-4d2c-a47d-303768489ad0"
+                      LastKnownName="List&lt;DateTime‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e2ece679-eb27-4e4b-9ccf-3c16e45275b5"
+            name="Course"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dde29df5-16c2-48a5-87dd-9b8b2e105e9d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c05b35e-777b-4718-9bcf-c81505e61a1a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aed1fc5-a952-4e79-aa23-3c32a0ff350d">
+                    <propertyInstance
+                      Id="3df3d2fe-fa95-4a7f-921c-5304bf3c2067"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6026b224-8f4d-42f8-9bbb-aad8347f0a76">
+                    <propertyInstance
+                      Id="cde846fb-51e2-46aa-ad58-a51978d46249"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="751a98b7-d3b5-46c2-9d57-10042920dfb0">
+                    <propertyInstance
+                      Id="4bbcd9c2-2047-4378-a013-0bde9d0a71cb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b94e9b-0704-4663-8d2f-ea9cfccc362e">
+                    <propertyInstance
+                      Id="8cc9cdbf-d572-4a2a-88a0-31438148c095"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfa46f27-9590-4437-97ce-e8082bd42f26">
+                    <propertyInstance
+                      Id="9c3b0a76-14e1-4e6f-a5d4-299d113846c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0103fd9a-ee73-4e37-b022-643ff380acc4">
+                    <propertyInstance
+                      Id="53a08ad6-7383-4620-91c8-cf3a63e47f7e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ce592602-af1f-4534-88b1-9d5db8135192"
+                  name="professor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="58d2279c-ff99-4177-aa1d-fc36df8820a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dprofessor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2422b345-e45b-44a9-8220-4f9cf9d6fbc0"
+                      LastKnownName="Professor"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a7f7f8f-5122-4585-92dd-9c7af4893bd0"
+                  name="credits"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="898bdd11-29f2-4d8c-b794-0bab6e1bd095"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Type%3DProfessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dcredits"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="654b9c73-69f7-42e3-a511-c24713f6bfc8"
+            name="AddCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1cd514f5-c0ef-4cb3-9ee8-86f8f06bb1ad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3d83d9d-97ee-4fb0-bedb-710828cc00c2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb3d55e8-1b3e-453b-8fc6-f2e9822258f4">
+                    <propertyInstance
+                      Id="530d5cd7-9855-406e-a2e0-6846fce93bcf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce573781-919e-4905-8e8e-562d7d26b3d0">
+                    <propertyInstance
+                      Id="c4a212dc-80d5-4d36-8601-e66e215eb920"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="689a3667-8182-4b32-8f94-a45667ab26f8">
+                    <propertyInstance
+                      Id="294cb8b1-8753-4d13-9202-6682e122703b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ad16b71-28bd-4027-926e-aa6b4ef721c5">
+                    <propertyInstance
+                      Id="00806dec-a407-469a-b2fa-a5177127037f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9787e1a9-6ed6-4f7a-9414-b05f0c4c851f">
+                    <propertyInstance
+                      Id="a82e188f-7506-45da-b0d4-c79d905a35f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f166f20e-aa41-4c6e-bd2d-3fcc528a136b">
+                    <propertyInstance
+                      Id="cd685068-2aac-437c-a4ec-53ddbd74c650"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="97c0fec7-7349-46e6-b577-ef5cf995a860"
+                  name="courses"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8f66e7ae-938a-4ad2-8aaf-f9c04060e75f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)]))]) ParameterIdentifier%3Dcourses"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0a4626c-f2e1-4596-bdf4-67bb71aa0a29"
+                      LastKnownName="List&lt;Course‎&gt;"
+                      LastKnownLocation="Package3_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a3256291-ab37-4515-b9cd-669d102d3b04"
+            name="AddCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99b3e08f-5206-44e3-be05-eb922906bdcd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f6b82ad-d929-4a96-9076-76fe11b903c1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14c93463-7daf-4d0f-a335-004d1fc88e5a">
+                    <propertyInstance
+                      Id="2fa583a6-a07b-4ae1-9437-bc2c1fab8b6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50fffc2c-d339-4af9-95d3-de1a305b51f2">
+                    <propertyInstance
+                      Id="c8a2cb7f-ab3e-496d-bf68-8caf88b79716"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6445c099-8d5d-4b5f-9f0b-e0d05dd8be05">
+                    <propertyInstance
+                      Id="8bb2e81f-0939-4885-b9a7-7408dfb62ed8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b046b6-271b-45bd-b236-a5e734010235">
+                    <propertyInstance
+                      Id="735cf3a5-824f-45a2-9ff9-19ba7880be55"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8b304a0-189d-4a87-b079-a52084040ab5">
+                    <propertyInstance
+                      Id="3ed762c9-bfc7-4faa-8567-a022cfb9a816"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eedd7b9c-8db3-4d5b-90db-2085619ae66f">
+                    <propertyInstance
+                      Id="a2f0ab38-c056-4888-8fb0-18515d0ec66e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a3285af0-2481-4a09-8a17-6921dec8f19d"
+                  name="course"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="28b3ea29-1a8f-4d72-95a1-9cddb885f39a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DAddCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)]) ParameterIdentifier%3Dcourse"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee7ec90d-911e-4ba6-8e8b-d8fa4b04682d"
+                      LastKnownName="Course"
+                      LastKnownLocation="Package_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5c7089e2-a472-4ecb-8714-4d8984a4ef4c"
+            name="GetOnlineMaterial"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5675776-3db5-4cc2-94e1-4865bbc1e6b3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DGetOnlineMaterial OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="495fb3a7-7c20-4751-84b2-eb3e4adf3f49"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e06d7bd0-c97f-451c-8aed-eb4c1925d3cf">
+                    <propertyInstance
+                      Id="171e3c19-80ce-47d7-a516-ca330472aefa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4ffb504-5ae6-400b-8ad0-2dd8d3dd9861">
+                    <propertyInstance
+                      Id="f784ffc9-a91d-4e5d-a919-42a9e0705b80"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="207d4774-afdb-463a-b391-fefa2c37744b">
+                    <propertyInstance
+                      Id="01c88a64-754b-43a1-ae10-e47c09108d4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f14e0ba-ca66-40d2-8ef2-8028b365add7">
+                    <propertyInstance
+                      Id="f3fb85b1-ac4f-4869-a927-e56593fea986"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="739ada0d-25c2-498a-97e8-95259c0991d4">
+                    <propertyInstance
+                      Id="d4f90b31-7424-4d6f-83c3-2c5eaa006864"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7891220e-e60c-45c2-8b04-760099820c7b">
+                    <propertyInstance
+                      Id="d7536822-6107-4485-adcd-1f9ac6eb8023"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="af6f3f65-c714-42e2-ae5a-babeffa94d65"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ad187912-ea3a-4d6a-92f8-57f27b290957"
+                      LastKnownName="Uri"
+                      LastKnownLocation="Package1_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="10267e91-97e6-4dfa-a16b-860308ecf2f2"
+                  name="ID"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6c532d67-92d0-4e02-bc27-00c2a751db42"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DGetOnlineMaterial OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DID"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="LIT_03062015.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a74aeda9-c9ba-48cb-982a-5aa2138a7f80"
+            name="RemoveCourse"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ae0d7447-2b51-4b1f-94b4-0aeee68c97b2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DRemoveCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9696ea8e-8b7a-40a0-bca0-afa9d32714cc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2fbfcb2-0c90-4a1c-b76b-b8bf8607b030">
+                    <propertyInstance
+                      Id="50b11673-21d7-44a8-bff2-63f4279e1dd0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="336c496a-4ba6-4a25-adf7-99b5bbe447de">
+                    <propertyInstance
+                      Id="3f81488a-af65-4bd4-8202-e05bb6531505"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="325f8d2a-5a22-41d2-ad75-4a5e0d21cb47">
+                    <propertyInstance
+                      Id="2d63a3ba-b460-4981-afbf-c5625fd2ede6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="161af2f0-c6b4-4c20-97cd-b2c63943f856">
+                    <propertyInstance
+                      Id="63267d56-a932-4249-a315-774c8d9979d8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="767d19ba-7f75-47f8-a044-ecbb93dd4c6a">
+                    <propertyInstance
+                      Id="fca72724-a04e-431c-9d4e-726815f31572"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ed03ce-bb99-4b77-9f6c-c270c2e29f6b">
+                    <propertyInstance
+                      Id="64dcfdd5-a91e-4b64-bb7e-d101eac6485c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="77be6cf1-7c7b-46f8-bfc4-e106d5d01ffc"
+                  name="course"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7eb29741-a319-4e6c-a737-6d5416903999"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D(Name%3DRemoveCourse OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse)]) ParameterIdentifier%3Dcourse"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee7ec90d-911e-4ba6-8e8b-d8fa4b04682d"
+                      LastKnownName="Course"
+                      LastKnownLocation="Package_1236.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="02ba0856-0094-4ee7-bd8b-5d75510cdc14"
+            name="Course"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="11b56c33-c89a-477a-8ddf-3f1934eaa180"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b6aff9e-210f-4497-81ec-120bfd3d8889"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42a464c8-4595-4883-8093-9c382edc7765">
+                    <propertyInstance
+                      Id="4a7057a8-8054-476c-ad22-6831657d7111"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="214c5c5c-5903-4b3d-bf60-ddd723bf0dbf">
+                    <propertyInstance
+                      Id="d36a8b09-4a95-4e91-9143-f7b79e4429b0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="833e0c64-e273-4eec-9956-c87f9d14f9a1">
+                    <propertyInstance
+                      Id="5179cb74-0b79-45f2-afb0-10b3a5f6869b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdd2e296-e1bb-46dd-befe-f66a7b8403c1">
+                    <propertyInstance
+                      Id="e848e580-15b4-4292-9da0-35aa3f4329e2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="415cf12c-a97e-439f-8e8d-3112521fc3e7">
+                    <propertyInstance
+                      Id="870da98e-bcdb-4b8b-939b-15d6d2e5cbaf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1af95e57-79c1-4ee4-a22d-8b7cfd608faf">
+                    <propertyInstance
+                      Id="efecd5b4-ba48-4f1a-9180-1ae1828f4954"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f909486d-8e84-4ced-9c14-1a65c547d785"
+            name="ClearAllCourses"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="87ec1977-28ce-4c8b-bef9-6ebb9ed124dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DClearAllCourses"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f959c30-d087-4899-b2a1-a5555899ce98"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b38a46b-97f8-43a4-9993-ad0cda40c9ca">
+                    <propertyInstance
+                      Id="edad39b6-d782-43e2-8088-d66c7185fdbf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64ef75e3-3ba9-4f6a-bda3-46db462d3f15">
+                    <propertyInstance
+                      Id="04283355-222d-4ed2-9245-58a818628cbf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ad3ec2f-cd40-4e47-9064-00032a2757e1">
+                    <propertyInstance
+                      Id="9e4aa708-95ba-4053-94cc-50a626d98b82"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fe71a0b-5f36-4425-b25a-3930ff052936">
+                    <propertyInstance
+                      Id="43adfbae-2ad8-4c2a-9459-acd3ad4cfa02"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="988476a5-ac21-43cf-84bf-a201246ba94b">
+                    <propertyInstance
+                      Id="693a6deb-944a-45ed-8f33-3d00a7f84f4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e067ebd2-26a7-4bfc-940e-4275b49faaa5">
+                    <propertyInstance
+                      Id="e406f389-d152-4135-a1bc-1672024b1a04"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2ebb1a05-3383-4259-9731-5044cab82da9"
+            name="UpdateCareer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="70fbe5ac-42f0-44e0-a32c-bc870298b700"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Foddos_000%2Fdocuments%2Fvisual studio 2013%2FProjects%2FLIT_03062015%2FLIT_03062015Lib%2Fbin%2FDebug%2FLIT_03062015Lib.dll&quot; Namespace%3DUniversity Type%3DCourse Member%3DUpdateCareer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4409c3ed-ee24-441a-b05c-951eb20163ad"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0b221cd-ec89-4507-8a0b-53dbc5e57c48">
+                    <propertyInstance
+                      Id="13ce32c1-9b8d-4672-9d07-5bc4c71ba12b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2609016-3cda-41aa-abab-b57f27c7ccd8">
+                    <propertyInstance
+                      Id="7354247a-b5b3-4143-af73-fdf8e1df9488"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69149219-6c84-4afe-a433-26550c8ad419">
+                    <propertyInstance
+                      Id="c3b1891e-1976-44d1-af13-e2743c9fd5ec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56a423ff-3164-4efb-a434-af95d7e06192">
+                    <propertyInstance
+                      Id="b62b58a2-ca25-46d9-8176-99bcc6d95625"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="223a4907-37be-43b7-b5de-f37db933875d">
+                    <propertyInstance
+                      Id="57af7aa4-695e-4e89-9972-ab514b3e3de9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7200e2ad-169d-4467-99fd-c0a99e474496">
+                    <propertyInstance
+                      Id="d9b4f417-1e66-4d88-b1a6-bf16055fe837"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
