@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="ProjectPath = ..\LIT_03062015Lib\LIT_03062015Lib.csproj" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="LIT_03062015's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'LIT_03062015::Career' -  (Class), 'LIT_03062015::StudentCareer' -  (Class), 'LIT_03062015::Person' -  (Class), 'LIT_03062015::Student' -  (Class), 'LIT_03062015::Year' -  (Class), 'LIT_03062015::Professor' -  (Class), 'LIT_03062015::Degree' -  (Class), 'LIT_03062015::Course' -  (Class), 'LIT_03062015::Master' -  (Class), 'LIT_03062015::Bachelor' -  (Class) " />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="'LIT_03062015::Career' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Career.cs" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="'LIT_03062015::StudentCareer' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\StudentCareer.cs" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="'LIT_03062015::Person' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Person.cs" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="'LIT_03062015::Student' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Student.cs" />
+  <Message Timestamp="2015-06-03T11:25:25" Importance="Medium" Text="'LIT_03062015::Year' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Year.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="'LIT_03062015::Professor' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Professor.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="'LIT_03062015::Degree' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Degree.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="'LIT_03062015::Course' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Course.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="'LIT_03062015::Master' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Master.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="'LIT_03062015::Bachelor' -  (Class) : success (file replaced) - c:\users\oddos_000\documents\visual studio 2013\Projects\LIT_03062015\LIT_03062015Lib\GeneratedCode\Bachelor.cs" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="ProjectPath = ..\LIT_03062015Lib\LIT_03062015Lib.csproj" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Medium" Text="LIT_03062015's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'LIT_03062015::Career' -  (Class), 'LIT_03062015::StudentCareer' -  (Class), 'LIT_03062015::Person' -  (Class), 'LIT_03062015::Student' -  (Class), 'LIT_03062015::Year' -  (Class), 'LIT_03062015::Professor' -  (Class), 'LIT_03062015::Degree' -  (Class), 'LIT_03062015::Course' -  (Class), 'LIT_03062015::Master' -  (Class), 'LIT_03062015::Bachelor' -  (Class) " />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Career' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::StudentCareer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Person' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Student' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Year' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Professor' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:26" Importance="Diagnostic" Text="'LIT_03062015::Degree' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::Course' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::Master' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::Bachelor' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="The selection included 14 elements which were not bound to a template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'f9d80a18-06e7-46fb-af6a-db7025a067e8' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'2bcc501a-111f-4799-a14f-daace84edbc4' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'4e298b7e-f426-43f2-8389-7bc6a875c598' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'b13dec82-2ef5-4164-98f3-e49a98de2fd7' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'dce30737-1b8e-44ce-8943-8b75d3e698b4' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="Diagnostic" Text="'LIT_03062015::' -  (Association): no bound template." />
+  <Message Timestamp="2015-06-03T11:25:27" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

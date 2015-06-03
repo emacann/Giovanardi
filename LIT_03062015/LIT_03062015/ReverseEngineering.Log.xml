@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-03T12:40:29" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '997d3697-c05f-40f8-8f63-3389c54433f6' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'a97d1272-2c15-4d1d-b9d3-4becdc2934e8' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015' -  (ModelStoreModel)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Career' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Course' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Person' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Medium" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student' -  (Class)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Degree' -  (Property)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::IdentificationNumber' -  (Property)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student' -  (Operation)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::age' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::degree' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::gender' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::ID' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::name' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::Student::surname' -  (Parameter)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::Student::StudentCareer' -  (Property)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Medium" Text="Element reverse engineered into the UML model: 'LIT_03062015::StudentCareer' -  (Class)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::StudentCareer::PassedExams' -  (Property)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::StudentCareer::StudentCareer' -  (Operation)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::StudentCareer::TotalCredits' -  (Property)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System' -  (Package)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Byte' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Collections' -  (Package)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Collections::Generic::List&lt;Course‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Nullable' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::System::Nullable&lt;Boolean‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::University' -  (Package)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'LIT_03062015::University::Degree' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::Student to LIT_03062015::University::Degree (Association)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::Student to LIT_03062015::StudentCareer (Association)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::Student to LIT_03062015::Person (Generalization)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::StudentCareer to LIT_03062015::System::Collections::Generic::List&lt;Course‎&gt; (Association)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::StudentCareer to LIT_03062015::Career (Generalization)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::University::Master to LIT_03062015::University::Degree (Generalization)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::University::Bachelor to LIT_03062015::University::Degree (Generalization)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: LIT_03062015::Professor to LIT_03062015::Person (Generalization)" />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="High" Text="(2) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="High" Text="(9) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-06-03T12:40:30" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
